@@ -5,7 +5,7 @@ public class MusicPlaylistOrganizer
 {
     public static void Main(string[] args)
     {
-        Console.Write ("Song to add: ");
+        Console.Write ("Songs to add: ");
         int len = Convert.ToInt32(Console.ReadLine());
         Song[] songs = new Song[len];
         double totalTime = 0;
